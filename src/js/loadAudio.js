@@ -2,7 +2,7 @@ export default function loadAudio(arr, vol) {
 
     let audio = document.createElement("audio");
 
-    for (let i = 0, len = arr.length; i<len; i+=1){
+    for (let i = 0, len = arr.length; i < len; i+=1){
         let source = document.createElement('source');
         source.src = arr[i];
         audio.appendChild(source);
@@ -23,6 +23,7 @@ export default function loadAudio(arr, vol) {
 
         },
         pause: function() {
+
             this.dom.pause();
             this.state = 'pause';
         },
