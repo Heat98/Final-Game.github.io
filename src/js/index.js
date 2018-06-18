@@ -7,7 +7,6 @@ import CONSTANTS from '../js/constants';
 import GameEngine from '../js/GameEngine';
 
 
-
 let setup = function () {
 
     CONSTANTS.canvas.width = CONSTANTS.width;
@@ -46,7 +45,6 @@ function drawGameField() {
 let gameLoop = function () {
     drawGameField();
 };
-
 
 let gameEngine = new GameEngine();
 gameEngine.gameEngineStart(gameLoop);
