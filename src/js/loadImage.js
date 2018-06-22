@@ -1,11 +1,10 @@
 import CONSTANTS from '../js/constants';
 
-function loadImage(path, width, height, count) {
+export default function loadImage(path, width, height, count, x, y) {
 
     let image = new Image();
 
     let result = {
-
         dom: image,
         width: width,
         height: height,
@@ -14,19 +13,14 @@ function loadImage(path, width, height, count) {
         num: 1
     };
 
-    image.onload = () => {
-        result.loaded = true;
+    image.onload = function () {
+        drawImage(result, x, y, width, height)
     };
-
-        image.src = path;
-
-        return result;
+    image.src = path;
 }
 
 
-function drawImage(img, x, y, w ,h) {
-
-    if (!img.loaded) return;
+function drawImage(img, x, y, width ,height) {
 
     if (img.num >= img.count) {
         img.num = 1;
@@ -34,7 +28,5 @@ function drawImage(img, x, y, w ,h) {
         img.num += 1;
     }
 
-    CONSTANTS.context.drawImage(img.dom, img.width * (img.num - 1), 0, img.width, img.height, x, y, w, h);
+    CONSTANTS.context.drawImage(img.dom, img.width * (img.num - 1), 0, img.width, img.height, x, y, width, height);
 }
-
-export {loadImage, drawImage}

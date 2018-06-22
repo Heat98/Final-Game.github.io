@@ -5,22 +5,23 @@
     <title>Title</title>
 </head>
 <body>
-    <canvas id="canvas">
-        <div class="wrapper">
-            <div class="sector" style="transform: rotate(75deg) skew(60deg);"></div>
-            <div class="sector" style="transform: rotate(105deg) skew(60deg);"></div>
-            <div class="sector" style="transform: rotate(135deg) skew(60deg);"></div>
-            <div class="sector" style="transform: rotate(165deg) skew(60deg);"></div>
-            <div class="sector" style="transform: rotate(195deg) skew(60deg);"></div>
-            <div class="sector" style="transform: rotate(225deg) skew(60deg);"></div>
-            <div class="sector" style="transform: rotate(255deg) skew(60deg);"></div>
-            <div class="sector" style="transform: rotate(285deg) skew(60deg);"></div>
-            <div class="sector" style="transform: rotate(315deg) skew(60deg);"></div>
-            <div class="sector" style="transform: rotate(345deg) skew(60deg);"></div>
-            <div class="sector" style="transform: rotate(375deg) skew(60deg);"></div>
-            <div class="sector" style="transform: rotate(405deg) skew(60deg);"></div>
+    <div class="canvas_wrapper">
+        <canvas id="canvas">Your browser does not support the canvas element.</canvas>
+        <div id="jutsu" class="hide_element">
+            <ul id="jutsu_list" class="jutsu_list">
+                <li id="hit" class="hit">太極拳</li>
+                <li id="katon" class="katon">カトン</li>
+                <li id="kirin" class="kirin">キリン</li>
+                <li id="chidori" class="chidori">エピムを取る</li>
+            </ul>
         </div>
-    </canvas>
-
+        <div id="questions" class="hide_element">
+            <form id="question_form" class="question">
+                <p id="question"></p>
+                <input id="first" type="text">
+                <button id="answer">Answer</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
