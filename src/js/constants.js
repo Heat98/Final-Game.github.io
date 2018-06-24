@@ -17,6 +17,7 @@ const CONSTANTS = {
     questionForm: document.getElementById('guestion_form'),
     question: document.getElementById('question'),
     answer: document.getElementById('answer'),
+    input: document.getElementById('input')
 };
 
 export default CONSTANTS;

@@ -5,8 +5,8 @@ import screenEvent from './Screen settings/launchFullScreen';
 import CONSTANTS from '../js/constants';
 import GameEngine from '../js/GameEngine';
 import Jutsu from '../js/Jutsu';
-import questions from '../js/questions'
 import Question from "./Question";
+import Sasuke from './Sasuke';
 
 let setup = function () {
 
@@ -29,8 +29,8 @@ let setup = function () {
         jutsu.hideJutsuMenu();
         question.showQuestion();
     });
-
-    CONSTANTS.answer.addEventListener('click', question.checkAnswer());
+    const callback = () => jutsu.showJutsuMenu();
+    CONSTANTS.answer.addEventListener('click', () => question.checkAnswer(callback));
 };
 
 let sound = ['../assets/sounds/zvuk.mp3'];
