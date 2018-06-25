@@ -1,4 +1,4 @@
-let nextGameStep = (function () {
+let nextGameStep = (() => {
 
     return requestAnimationFrame ||
         webkitRequestAnimationFrame ||

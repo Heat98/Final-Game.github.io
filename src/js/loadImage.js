@@ -14,7 +14,7 @@ export default function loadImage(path, width, height, count, x, y) {
     };
 
     image.onload = function () {
-        drawImage(result, x, y, width, height)
+        drawImage(result, x, y, width, height);
     };
     image.src = path;
 }

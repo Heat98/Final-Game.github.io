@@ -15,9 +15,6 @@ let setup = function () {
 
     screenEvent();
 
-    let gameEngine = new GameEngine();
-    gameEngine.gameEngineStart(gameLoop);
-
     const jutsu = new Jutsu();
     const question = new Question();
     jutsu.showJutsuMenu();
@@ -35,44 +32,23 @@ let setup = function () {
 
 let sound = ['../assets/sounds/zvuk.mp3'];
 let coin = loadAudio(sound, 1);
+let sasuke = new Sasuke();
+
+
+setup();
+
+let x = 100;
+let y = 300;
 
 function drawGameField() {
     CONSTANTS.context.clearRect(0, 0, CONSTANTS.width, CONSTANTS.height);
-    loadImage('../assets/img/saske2.png', 130, 300, 1, 100, 300);
-    loadImage('../assets/img/naruto2.png', 184, 272, 1, 1000, 328);
+    sasuke.fell(x, y);
+    loadImage('../assets/img/naruto_stay.png', 184, 272, 1, 1000, 328);
 }
 
 let gameLoop = function () {
     drawGameField();
 };
 
-
-setup();
-// function jutsu() {
-//     setTimeout(() => {
-//         CONSTANTS.jutsu.classList.remove('jutsu');
-//         CONSTANTS.jutsu.classList.add('hide_element');
-//     }, 2000);
-// }
-
-// let promise = new Promise((resolve, reject) => {
-//     CONSTANTS.jutsu_list.addEventListener('click', (event) => {
-//         let target = event.target;
-//         if ( target.tagName != 'li' ) return;
-//         resolve("result");
-//     });
-// });
-//
-// promise.
-//     then(
-//         result => {
-//             setTimeout(() => {
-//                 CONSTANTS.jutsu.classList.remove('jutsu');
-//                 CONSTANTS.jutsu.classList.add('hide_element');
-//             }, 5000);
-//         },
-//         error => {
-//             console.log('error');
-//         }
-// );
-
+let gameEngine = new GameEngine();
+gameEngine.gameEngineStart(gameLoop);

@@ -106,3 +106,50 @@ body {
     font-family: "Naruto",sans-serif;
     margin-top: 30px;
 }
+
+.progress_bars {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Naruto",sans-serif;
+}
+
+.progress_bars .sasuke_progress {
+    margin-left: 50px;
+    color: blue;
+    display: flex;
+    align-items: center;
+}
+
+.progress_bars .naruto_progress {
+    margin-right: 50px;
+    color: orange;
+    display: flex;
+    align-items: center;
+}
+
+progress {
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+}
+progress[value]::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sasuke_progress progress[value]::-webkit-progress-value {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.naruto_progress progress[value]::-webkit-progress-value {
+    background-color: orange;
+    border-radius: 10px;
+}
