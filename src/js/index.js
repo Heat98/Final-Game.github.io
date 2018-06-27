@@ -3,10 +3,10 @@ import loadAudio from './loadAudio';
 import loadImage from './loadImage';
 import screenEvent from './Screen settings/launchFullScreen';
 import CONSTANTS from '../js/constants';
-import GameEngine from '../js/GameEngine';
 import Jutsu from '../js/Jutsu';
 import Question from "./Question";
 import Sasuke from './Sasuke';
+import GameEngine from './GameEngine'
 
 let setup = function () {
 
@@ -46,7 +46,7 @@ function drawGameField() {
     loadImage('../assets/img/naruto_stay.png', 184, 272, 1, 1000, 328);
 }
 
-let gameLoop = function () {
+let gameLoop = () => {
     drawGameField();
 };
 
