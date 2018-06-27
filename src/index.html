@@ -6,6 +6,26 @@
 </head>
 <body>
     <div class="canvas_wrapper">
+        <div class="progress_bars">
+            <div class="sasuke_progress">
+                <div class="progress">
+                <p>Sasuke</p>
+                <progress max="100" value="25"></progress>
+                </div>
+                <div class="sasuke_avatar">
+                    <img src="../assets/img/sasuke_progress.png" alt="sasuke_avatar">
+                </div>
+            </div>
+            <div class="naruto_progress">
+                <div class="naruto_avatar">
+                    <img src="../assets/img/naruto_progress.png" alt="naruto_avatar">
+                </div>
+                <div class="progress">
+                <p>Naruto</p>
+                <progress max="100" value="25"></progress>
+                </div>
+            </div>
+        </div>
         <canvas id="canvas">Your browser does not support the canvas element.</canvas>
         <div id="jutsu" class="hide_element">
             <ul id="jutsu_list" class="jutsu_list">
@@ -18,9 +38,9 @@
         <div id="questions" class="hide_element">
             <form id="question_form" class="question">
                 <p id="question"></p>
-                <input id="first" type="text">
-                <button id="answer">Answer</button>
+                <input id="input" type="text">
             </form>
+            <button id="answer" class="button">Answer</button>
         </div>
     </div>
 </body>

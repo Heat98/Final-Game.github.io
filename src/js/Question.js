@@ -1,33 +1,34 @@
 import questions from '../js/questions'
 import CONSTANTS from '../js/constants';
+import questionsList from '../js/questionsList'
 
 export default class Question{
     constructor() {
-        this.num = 0;
-        this.answer = CONSTANTS.answer.value;
+        this.iterator = questionsList[Symbol.iterator]();
+        this.nextQuestion = this.iterator.next();
     }
 
     showQuestion() {
         this.ask();
-        setTimeout(()=> {
-            CONSTANTS.questions.classList.remove('hide_element');
-            CONSTANTS.questions.classList.add('questions');
-        }, 500);
+                CONSTANTS.questions.classList.remove('hide_element');
+                CONSTANTS.questions.classList.add('questions');
     }
 
     hideQuestions() {
-        setTimeout(()=> {
-            CONSTANTS.questions.classList.remove('questions');
-            CONSTANTS.questions.classList.add('hide_element');
-        },500)
+        CONSTANTS.questions.classList.remove('questions');
+        CONSTANTS.questions.classList.add('hide_element');
     }
 
     ask() {
-
-        CONSTANTS.question.innerHTML = questions.first[0];
+        CONSTANTS.question.innerHTML = this.nextQuestion.value[0];
     }
 
-    checkAnswer() {
-        if (this.answer = questions.first[1]) this.hideQuestions();
+
+    checkAnswer(callback) {
+        if (CONSTANTS.input.value === this.nextQuestion.value[1]) {
+            this.hideQuestions();
+            this.nextQuestion = this.iterator.next();
+            callback();
+        }
     }
 }

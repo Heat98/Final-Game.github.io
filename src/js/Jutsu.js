@@ -10,9 +10,7 @@ export default class Jutsu {
     }
 
     hideJutsuMenu() {
-        setTimeout(()=> {
-            CONSTANTS.jutsu.classList.remove('jutsu');
-            CONSTANTS.jutsu.classList.add('hide_element');
-        },500)
+        CONSTANTS.jutsu.classList.remove('jutsu');
+        CONSTANTS.jutsu.classList.add('hide_element');
     }
 }
