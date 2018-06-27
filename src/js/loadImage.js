@@ -13,7 +13,7 @@ export default function loadImage(path, width, height, count, x, y) {
         num: 1
     };
 
-    image.onload = function () {
+    image.onload = () => {
         drawImage(result, x, y, width, height);
     };
     image.src = path;

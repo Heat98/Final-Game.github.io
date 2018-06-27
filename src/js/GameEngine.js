@@ -1,6 +1,6 @@
 import nextGameStep from '../js/requestAnimationFrame';
 
-export default class GameEngine{
+export default class GameEngine {
 
     constructor() {
         this.gameEngine = null;
@@ -13,10 +13,6 @@ export default class GameEngine{
 
     gameEngineStep() {
         this.gameEngine();
-        nextGameStep(this.gameEngineStep);
-    }
-
-    setGameEngine(callback) {
-        this.gameEngine = callback;
+        nextGameStep(this.gameEngineStep.bind(this));
     }
 }
