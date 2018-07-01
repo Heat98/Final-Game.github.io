@@ -1,4 +1,4 @@
-import CONSTANTS from "../constants";
+import CONSTANTS from "../Constants/constants";
 import onfullscreenchange from "./onFullScreenChange";
 
 function launchFullScreen(element) {

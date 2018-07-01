@@ -1,4 +1,4 @@
-import loadImage from "./loadImage";
+import loadImage from "../Loaders/loadImage";
 
 export default class Sasuke {
 

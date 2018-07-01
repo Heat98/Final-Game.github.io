@@ -1,12 +1,12 @@
 import style from "../styles/style.css";
-import loadAudio from './loadAudio';
-import loadImage from './loadImage';
+import loadAudio from './Loaders/loadAudio';
+import loadImage from './Loaders/loadImage';
 import screenEvent from './Screen settings/launchFullScreen';
-import CONSTANTS from '../js/constants';
-import Jutsu from '../js/Jutsu';
-import Question from "./Question";
-import Sasuke from './Sasuke';
-import GameEngine from './GameEngine'
+import CONSTANTS from './Constants/constants';
+import Jutsu from './GameComponents/Jutsu';
+import Question from "./GameComponents/Question";
+import Sasuke from './GameComponents/Sasuke';
+import GameEngine from './GameEngine/GameEngine'
 
 let setup = function () {
 
@@ -42,7 +42,7 @@ let y = 300;
 
 function drawGameField() {
     CONSTANTS.context.clearRect(0, 0, CONSTANTS.width, CONSTANTS.height);
-    sasuke.fell(x, y);
+    loadImage('../assets/img/sasuke_stay.png', 130, 300, 1, 100, 300);
     loadImage('../assets/img/naruto_stay.png', 184, 272, 1, 1000, 328);
 }
 

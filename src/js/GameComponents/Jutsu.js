@@ -1,4 +1,4 @@
-import CONSTANTS from '../js/constants';
+import CONSTANTS from '../Constants/constants';
 
 export default class Jutsu {
 
