@@ -1,4 +1,4 @@
-import questions from '../js/questions'
+import questions from './questions'
 
 const questionsList = [
 

@@ -1,4 +1,4 @@
-import nextGameStep from '../js/requestAnimationFrame';
+import nextGameStep from './requestAnimationFrame';
 
 export default class GameEngine {
 

@@ -1,6 +1,6 @@
-import questions from '../js/questions'
-import CONSTANTS from '../js/constants';
-import questionsList from '../js/questionsList'
+import questions from './questions'
+import CONSTANTS from '../Constants/constants';
+import questionsList from './questionsList'
 
 export default class Question{
     constructor() {
