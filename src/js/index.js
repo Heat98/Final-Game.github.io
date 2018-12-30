@@ -7,48 +7,52 @@ import Jutsu from './GameComponents/Jutsu';
 import Question from "./GameComponents/Question";
 import Sasuke from './GameComponents/Sasuke';
 import GameEngine from './GameEngine/GameEngine'
+import Game from './GameComponents/Game'
 
-let setup = function () {
+let game = new Game;
 
-    CONSTANTS.canvas.width = CONSTANTS.width;
-    CONSTANTS.canvas.height = CONSTANTS.height;
-
-    screenEvent();
-
-    const jutsu = new Jutsu();
-    const question = new Question();
-    jutsu.showJutsuMenu();
-
-    CONSTANTS.jutsu_list.addEventListener('click', (event) => {
-
-        let target = event.target;
-        if ( target.tagName !== 'LI' ) return;
-        jutsu.hideJutsuMenu();
-        question.showQuestion();
-    });
-    const callback = () => jutsu.showJutsuMenu();
-    CONSTANTS.answer.addEventListener('click', () => question.checkAnswer(callback));
-};
-
-let sound = ['../assets/sounds/zvuk.mp3'];
-let coin = loadAudio(sound, 1);
-let sasuke = new Sasuke();
-
-
-setup();
-
-let x = 100;
-let y = 300;
-
-function drawGameField() {
-    CONSTANTS.context.clearRect(0, 0, CONSTANTS.width, CONSTANTS.height);
-    loadImage('../assets/img/sasuke_stay.png', 130, 300, 1, 100, 300);
-    loadImage('../assets/img/naruto_stay.png', 184, 272, 1, 1000, 328);
-}
-
-let gameLoop = () => {
-    drawGameField();
-};
-
-let gameEngine = new GameEngine();
-gameEngine.gameEngineStart(gameLoop);
+// let setup = function () {
+//
+//     CONSTANTS.canvas.width = CONSTANTS.width;
+//     CONSTANTS.canvas.height = CONSTANTS.height;
+//
+//     screenEvent();
+//
+//     const jutsu = new Jutsu();
+//     const question = new Question();
+//     jutsu.showJutsuMenu();
+//
+//     CONSTANTS.jutsu_list.addEventListener('click', (event) => {
+//
+//         let target = event.target;
+//         if ( target.tagName !== 'LI' ) return;
+//         jutsu.hideJutsuMenu();
+//         question.showQuestion();
+//     });
+//     const callback = () => jutsu.showJutsuMenu();
+//     CONSTANTS.answer.addEventListener('click', () => question.checkAnswer(callback));
+// };
+//
+// let sound = ['../assets/sounds/zvuk.mp3'];
+// let coin = loadAudio(sound, 1);
+//
+//
+// setup();
+//
+// let x = 100;
+// let y = 300;
+//
+// function drawGameField() {
+//     // CONSTANTS.context.clearRect(0, 0, CONSTANTS.width, CONSTANTS.height);
+//     let sasuke = new Sasuke();
+//     sasuke.fell(100,370);
+//     // loadImage('../assets/img/sasuke_stay.png', 130, 300, 1, 100, 300);
+//     loadImage('../assets/img/naruto_stay.png', 184, 272, 1, 1000, 328);
+// }
+//
+// let gameLoop = () => {
+//     drawGameField();
+// };
+//
+// let gameEngine = new GameEngine();
+// gameEngine.gameEngineStart(gameLoop);
