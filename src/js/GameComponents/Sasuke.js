@@ -1,6 +1,6 @@
 import loadImage from "../Loaders/loadImage";
 
-export default class Sasuke {
+export class Sasuke {
 
     constructor() {
         this.x = 100;
@@ -16,3 +16,6 @@ export default class Sasuke {
     }
 
 }
+
+const sasuke = new Sasuke();
+export default sasuke;
