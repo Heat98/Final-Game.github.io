@@ -1,12 +1,12 @@
-const HtmlWebPackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HtmlWebPackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
 module.exports = {
-    entry: "./src/js/index.js",
+    entry: './src/js/index.js',
     output :{
-        path: path.resolve(__dirname, "docs"),
-        filename: "main.js",
+        path: path.resolve(__dirname, 'docs'),
+        filename: 'main.js',
     },
     module: {
         rules: [
@@ -14,22 +14,27 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                use: {
-                    loader: "babel-loader"
-                }
+                use: [{
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['babel-preset-env'],
+                    },
+                }, {
+                    loader: 'eslint-loader',
+                }],
             },
             {
                 test: /\.html$/,
                 use: [
                     {
-                        loader: "html-loader",
+                        loader: 'html-loader',
                         options: { minimize: true }
                     }
                 ]
             },
             {
                 test: /\.css$/,
-                use: [MiniCssExtractPlugin.loader, "css-loader"]
+                use: [MiniCssExtractPlugin.loader, 'css-loader']
             },
 
             {
@@ -77,13 +82,13 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: "./src/index.html",
-            filename: "./index.html"
+            template: './src/index.html',
+            filename: './index.html'
         }),
         new MiniCssExtractPlugin({
-            filename: "[name].css",
-            chunkFilename: "[id].css"
+            filename: '[name].css',
+            chunkFilename: '[id].css'
         })
     ],
-    devtool: "source-map",
+    devtool: 'source-map',
 };
