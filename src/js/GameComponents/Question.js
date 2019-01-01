@@ -1,7 +1,7 @@
-import questions from './questions'
+import questions from './questions';
 import CONSTANTS from '../Constants/constants';
-import questionsList from './questionsList'
-import jutsu from './Jutsu'
+import questionsList from './questionsList';
+import jutsu from './Jutsu';
 
 export class Question{
     constructor() {

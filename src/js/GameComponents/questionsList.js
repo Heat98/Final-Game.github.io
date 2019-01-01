@@ -1,4 +1,4 @@
-import questions from './questions'
+import questions from './questions';
 
 const questionsList = [
 
@@ -9,4 +9,4 @@ const questionsList = [
 
 ];
 
-export default questionsList
+export default questionsList;

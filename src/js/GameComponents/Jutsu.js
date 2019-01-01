@@ -1,5 +1,5 @@
 import CONSTANTS from '../Constants/constants';
-import question from './Question'
+import question from './Question';
 
 export class Jutsu {
 
