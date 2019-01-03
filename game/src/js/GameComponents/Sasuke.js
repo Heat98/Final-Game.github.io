@@ -6,13 +6,13 @@ export class Sasuke {
     constructor() {}
 
     stay() {
-        loadImage('../assets/img/sasuke_stay.png', 130, 300, 1, 100, 300);
+        // loadImage('../assets/img/sasuke_stay.png', 130, 300, 1, 100, 300);
     }
 
     fell(x,y) {
         setInterval(()=>{
             CONSTANTS.context.clearRect(0,370, 1500, 1000);
-            imageLoader.setImagePattern('../assets/img/sasuke_up.png', 315, 244, 6, x, y);
+            imageLoader.setImagePattern('../src/assets/img/sasuke_up.png', 315, 244, 6, x, y);
         }, 200);
     }
 }

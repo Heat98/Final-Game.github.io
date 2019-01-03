@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Naruto';
-    src: url("../../assets/fonts/njnaruto.ttf") format('truetype');
+    src: url("../assets/fonts/njnaruto.ttf") format('truetype');
 }
 
 #canvas {
-    background: url("../../assets/img/back.png") no-repeat center center fixed;
+    background: url("../assets/img/back.png") no-repeat center center fixed;
     background-size: cover;
     display: block;
 }
@@ -47,7 +47,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px 50px 20px 10px;
-    background-image: url("../../assets/img/parchment.png");
+    background-image: url("../assets/img/parchment.png");
     background-size: cover;
 }
 
