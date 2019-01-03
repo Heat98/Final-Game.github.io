@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Naruto';
+    src: url("../../assets/fonts/njnaruto.ttf") format('truetype');
+}
+
+#canvas {
+    background: url("../../assets/img/back.png") no-repeat center center fixed;
+    background-size: cover;
+    display: block;
+}
+
+.hide_element {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.canvas_wrapper {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.jutsu {
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px 20px 10px;
+    background-image: url("../../assets/img/parchment.png");
+    background-size: cover;
+}
+
+.jutsu_list {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.jutsu_list li:hover {
+    color: orange;
+}
+
+.questions {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Naruto", sans-serif;
+    font-size: 20px;
+}
+
+.question input {
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-family: "Naruto", sans-serif;
+    color: orange;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aquamarine;
+    border: 2px solid white;
+    font-family: "Naruto",sans-serif;
+    margin-top: 30px;
+}
+
+.progress_bars {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Naruto",sans-serif;
+}
+
+.progress_bars .sasuke_progress {
+    margin-left: 50px;
+    color: blue;
+    display: flex;
+    align-items: center;
+}
+
+.progress_bars .naruto_progress {
+    margin-right: 50px;
+    color: orange;
+    display: flex;
+    align-items: center;
+}
+
+progress {
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+}
+progress[value]::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sasuke_progress progress[value]::-webkit-progress-value {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.naruto_progress progress[value]::-webkit-progress-value {
+    background-color: orange;
+    border-radius: 10px;
+}

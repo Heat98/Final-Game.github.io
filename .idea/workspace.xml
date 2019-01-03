@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="358d2002-1257-4772-982f-1cce3ce50af1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/njnaruto.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chidori.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/chidori_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/katon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/naruto_hit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/naruto_jincuriki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/naruto_progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/naruto_rassengan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/naruto_run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/naruto_stay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/parchment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/rassengan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sasuke_chidori.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sasuke_hit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sasuke_katon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sasuke_kirin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sasuke_progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sasuke_run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sasuke_stay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sasuke_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/AlbumArtSmall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Battle 1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Battle 2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Battle 3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Battle 4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Battle 5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Battle 6.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Bonus Track by Ichiron47.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Ending 1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Ending 2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Folder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Game Over.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Naruto Shippuden Shinobi Rumble OST Cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Result.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Select.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/StaffRole.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Talk 1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Talk 2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Talk 3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Talk 4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Talk 5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Talk 6.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Title 2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Title.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/VS 2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/VS.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Youtube Accounts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/022A_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/022B_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/022C_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/022D_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/022E_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/022F_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0230_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0231_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0232_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0233_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0234_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0235_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0236_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0237_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0238_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0239_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/023A_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/023B_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/023C_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/023D_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/023E_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/023F_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0240_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0241_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0242_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0243_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0244_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0245_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0246_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0247_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0371_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Naruto/0372_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/01FF_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/0200_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/0201_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/0202_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/0203_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/0204_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/0205_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/0206_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/0207_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/0208_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/0209_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/020B_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/020C_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/020D_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/020E_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/020F_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/0210_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/0211_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/021A_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/Sasuke/021B_0000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sounds/zvuk.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/14aeab11317d6acce400f9d4bd2fd195.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/5d990a5039f175ea0f3a75eb9c9e3032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/c7d329fa17933b017e82f4f7cd972565.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/f38aece37ded64d0162aac26ac12ec01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/fonts/njnaruto.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Constants/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/GameComponents/Game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/GameComponents/Jutsu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/GameComponents/Question.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/GameComponents/Sasuke.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/GameComponents/questions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/GameComponents/questionsList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/GameEngine/GameEngine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/GameEngine/requestAnimationFrame.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Loaders/ImageLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Loaders/loadAudio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Loaders/loadImage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Screen settings/canselFullScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Screen settings/launchFullScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Screen settings/onFullScreenChange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1243302763">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.65" value="1" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="eslintrc" value="1" />
+          <entry key="html" value="5" />
+          <entry key="js" value="61" />
+          <entry key="json" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="5" />
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="61" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="10" />
+          <entry key="html" value="9" />
+          <entry key="js" value="2310" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="10" />
+          <entry key="HTML" value="9" />
+          <entry key="JavaScript" value="2310" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="181" column="38" selection-start-line="181" selection-start-column="38" selection-end-line="181" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/src/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>this.num</find>
+      <find>count</find>
+      <find>&quot;</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/js/GameEngine/GameEngine.js" />
+        <option value="$PROJECT_DIR$/src/styles/style.css" />
+        <option value="$PROJECT_DIR$/src/js/Constants/constants.js" />
+        <option value="$PROJECT_DIR$/src/js/Loaders/loadImage.js" />
+        <option value="$PROJECT_DIR$/src/js/Loaders/ImageLoader.js" />
+        <option value="$PROJECT_DIR$/.eslintrc" />
+        <option value="$PROJECT_DIR$/src/js/Screen settings/launchFullScreen.js" />
+        <option value="$PROJECT_DIR$/src/js/Loaders/loadAudio.js" />
+        <option value="$PROJECT_DIR$/src/js/GameComponents/questions.js" />
+        <option value="$PROJECT_DIR$/src/js/GameComponents/questionsList.js" />
+        <option value="$PROJECT_DIR$/src/js/GameComponents/Sasuke.js" />
+        <option value="$PROJECT_DIR$/src/js/GameComponents/Jutsu.js" />
+        <option value="$PROJECT_DIR$/src/js/GameComponents/Game.js" />
+        <option value="$PROJECT_DIR$/src/js/GameComponents/Question.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/js/index.js" />
+        <option value="$PROJECT_DIR$/game/src/index.html" />
+        <option value="$PROJECT_DIR$/game/src/js/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/game/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/game/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="y" value="3" />
+    <option name="width" value="697" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Final-Game.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final-Game.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final-Game.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final-Game.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final-Game.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final-Game.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.9.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\User-PC\Desktop\Final-Game.github.io\node_modules\eslint" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="E:/Программы/NodeJS/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="358d2002-1257-4772-982f-1cce3ce50af1" name="Default Changelist" comment="" />
+      <created>1544877521689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544877521689</updated>
+      <workItem from="1544877526942" duration="16977000" />
+      <workItem from="1545753617197" duration="36570000" />
+      <workItem from="1546369318562" duration="4820000" />
+      <workItem from="1546527118260" duration="2160000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="60527000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14285715" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6590164" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22950819" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/js/Loaders/loadImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Screen settings/launchFullScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Screen settings/canselFullScreen.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Screen settings/onFullScreenChange.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Loaders/loadAudio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Loaders/ImageLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="78" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/GameEngine/GameEngine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/GameEngine/requestAnimationFrame.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/GameComponents/questions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Constants/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/GameComponents/Sasuke.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/GameComponents/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/GameComponents/Question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/GameComponents/Jutsu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/GameComponents/questionsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-803">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="181" column="38" selection-start-line="181" selection-start-column="38" selection-end-line="181" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
