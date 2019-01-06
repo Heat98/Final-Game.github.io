@@ -1,8 +1,9 @@
 import CONSTANTS from '../Constants/constants';
 // import screenEvent from '../Screen settings/launchFullScreen';
-import GameEngine from '../GameEngine/GameEngine';
-import sasuke from './Sasuke';
 import jutsu from './Jutsu';
+import audioLoader from '../Loaders/AudioLoader';
+import sasuke from './Sasuke';
+import naruto from './Naruto';
 
 export default class Game {
 
@@ -10,14 +11,10 @@ export default class Game {
         CONSTANTS.canvas.width = CONSTANTS.width;
         CONSTANTS.canvas.height = CONSTANTS.height;
         // screenEvent();
-        this.gameLoop = () => this.drawGameField();
-        new GameEngine().gameEngineStart(this.gameLoop);
+        // new audioLoader('src/assets/sounds/Naruto Shippuden Shinobi Rumble OST/Battle 1.mp3', 0.1).play();
+        jutsu.showJutsuMenu();
+        sasuke.stay(130, 300);
+        naruto.stay(1030, 300);
     }
 
-    drawGameField() {
-        // CONSTANTS.context.clearRect(0, 0, CONSTANTS.width, CONSTANTS.height);
-        jutsu.showJutsuMenu();
-        sasuke.fell(100, 370);
-        // loadImage('../assets/img/naruto_stay.png', 184, 272, 1, 1000, 328);
-    }
 }
