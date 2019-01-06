@@ -1,6 +1,6 @@
 import CONSTANTS from '../Constants/constants';
 
-export class ImageLoader {
+export default class ImageLoader {
     constructor() {
         this.image = new Image();
         this.frame =  1;
@@ -8,23 +8,21 @@ export class ImageLoader {
 
 
     setImagePattern(path, width, height, frames, x, y) {
-
-        this.image.onload = () => {
-            this.drawImage(this.image, x, y, width, height, frames);
-        };
-
         this.image.src = path;
+        this.drawImage(this.image, x, y, width, height, frames);
     }
 
     drawImage(image, x, y, width, height, frames) {
-
-        if (this.frame >= frames) return;
+        const update = setInterval(() => {
+            if (this.frame >= frames) {
+                this.frame = 1;
+                clearInterval(update);
+            }
+            CONSTANTS.context.clearRect(x, y, width, height);
+            CONSTANTS.context.drawImage(image, width * (this.frame - 1), 0, width, height, x, y, width, height);
             this.frame += 1;
+        }, 1000 / 7);
 
-        CONSTANTS.context.drawImage(image, width * (this.frame - 1), 0, width, height, x, y, width, height);
     }
 
 }
-
-const imageLoader = new ImageLoader();
-export default imageLoader;
