@@ -1,19 +1,21 @@
-import imageLoader from '../Loaders/ImageLoader';
-import CONSTANTS from '../Constants/constants';
+import ImageLoader from '../Loaders/ImageLoader';
 
 export class Sasuke {
 
-    constructor() {}
+    constructor() {
+        this.imageLoader = new ImageLoader();
+    }
 
-    stay() {
-        // loadImage('../assets/img/sasuke_stay.png', 130, 300, 1, 100, 300);
+    stay(x,y) {
+        this.imageLoader.setImagePattern('../src/assets/img/sasuke_stay.png',130, 300, 1, x, y);
     }
 
     fell(x,y) {
-        setInterval(()=>{
-            CONSTANTS.context.clearRect(0,370, 1500, 1000);
-            imageLoader.setImagePattern('../src/assets/img/sasuke_up.png', 315, 244, 6, x, y);
-        }, 200);
+        this.imageLoader.setImagePattern('../src/assets/img/sasuke_up.png', 380, 300, 14, x, y);
+    }
+
+    chidori(x,y) {
+        this.imageLoader.setImagePattern('../src/assets/img/sasuke_chidori.png', 400, 302, 10, x, y);
     }
 }
 
