@@ -18,6 +18,9 @@ const CONSTANTS = {
     question: document.getElementById('question'),
     answer: document.getElementById('answer'),
     input: document.getElementById('input'),
+
+    sasukeHealth: document.getElementById('sasukeHealth'),
+    narutoHealth: document.getElementById('narutoHealth'),
 };
 
 export default CONSTANTS;
