@@ -4,14 +4,13 @@ import question from './Question';
 export class Jutsu {
 
     constructor() {
-        this.chooseJutsu();
         this.question = question;
     }
 
     showJutsuMenu() {
         CONSTANTS.jutsu.classList.remove('hide_element');
         CONSTANTS.jutsu.classList.add('jutsu');
-
+        this.chooseJutsu();
     }
 
     hideJutsuMenu() {
