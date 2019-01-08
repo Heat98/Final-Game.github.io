@@ -4,9 +4,10 @@
 }
 
 #canvas {
-    background: url(14aeab11317d6acce400f9d4bd2fd195.png) no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    background: url(14aeab11317d6acce400f9d4bd2fd195.png) no-repeat center center;
     background-size: cover;
-    display: block;
 }
 
 .hide_element {
@@ -96,6 +97,18 @@ body {
     color: orange;
 }
 
+.reload {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aquamarine;
+    border: 2px solid black;
+    font-family: "Naruto",sans-serif;
+    margin: 30px auto;
+    outline: none;
+}
+
 .button {
     width: 100px;
     height: 30px;
@@ -105,6 +118,7 @@ body {
     border: 2px solid white;
     font-family: "Naruto",sans-serif;
     margin-top: 30px;
+    outline: none
 }
 
 .progress_bars {

@@ -1,4 +1,5 @@
 import ImageLoader from '../../Loaders/ImageLoader';
+import AudioLoader from '../../Loaders/AudioLoader';
 
 export class Naruto {
     constructor() {
@@ -10,6 +11,7 @@ export class Naruto {
     }
 
     rassengan(x, y) {
+        new AudioLoader('../src/assets/sounds/Naruto/rassengan.wav',0.3).play();
         this.imageLoader.setImagePattern('../src/assets/img/naruto_rassengan.png', 400, 300, 10, x, y);
     }
 }

@@ -1,6 +1,6 @@
 const questions  = {
     first:  ['2 + 2 * 2', '6'],
-    second: ['Translate cat', 'кот'],
+    second: ['Перевести cat', 'кот'],
     thrid:  ['Какое очество у Пушкина', 'сергеевич'],
     forth:  ['12 * 6', '72'],
 };

@@ -16,8 +16,8 @@ export class Question{
     showQuestion() {
         CONSTANTS.questions.classList.remove('hide_element');
         CONSTANTS.questions.classList.add('questions');
-        CONSTANTS.question.innerHTML = this.nextQuestion.value[0];
-
+        CONSTANTS.question.innerText = this.nextQuestion.value[0];
+        CONSTANTS.input.value = '';
     }
 
     hideQuestions() {
@@ -25,9 +25,23 @@ export class Question{
         CONSTANTS.questions.classList.add('hide_element');
     }
 
+    win() {
+        CONSTANTS.jutsu_list.innerHTML = '<p>Sasuke Wins!</p><button class="reload" onclick="location.reload();">Try again.</button>';
+        setTimeout(() => {
+            sasuke.win();
+        }, 3000);
+    }
+
+    lose() {
+        CONSTANTS.jutsu_list.innerHTML = '<p>Naruto Wins!</p><button class="reload" onclick="location.reload();">Try again.</button>';
+    }
+
     rightAnswer(callback) {
-        sasuke.chidori(100, 300);
+        sasuke.chidoriAttack(100, 300);
         CONSTANTS.narutoHealth.value -= 25;
+        if (CONSTANTS.narutoHealth.value === 0) {
+            this.win();
+        }
         this.hideQuestions();
         this.nextQuestion = this.iterator.next();
         callback();
@@ -35,16 +49,21 @@ export class Question{
 
     wrongAnswer(callback) {
         CONSTANTS.sasukeHealth.value -= 25;
+        if (CONSTANTS.sasukeHealth.value === 0) {
+            this.lose();
+        }
         this.hideQuestions();
         naruto.rassengan(900, 300);
+        setTimeout(()=>{
+            sasuke.fell(130,300);
+            },1000);
         callback();
     }
 
     checkAnswer(callback) {
-        CONSTANTS.input.value === this.nextQuestion.value[1] ?
+        CONSTANTS.input.value.toLowerCase() === this.nextQuestion.value[1] ?
             this.rightAnswer(callback) : this.wrongAnswer(callback);
         };
-
     }
 
 const question = new Question();

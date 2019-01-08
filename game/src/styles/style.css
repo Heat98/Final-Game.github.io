@@ -97,6 +97,18 @@ body {
     color: orange;
 }
 
+.reload {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aquamarine;
+    border: 2px solid black;
+    font-family: "Naruto",sans-serif;
+    margin: 30px auto;
+    outline: none;
+}
+
 .button {
     width: 100px;
     height: 30px;
@@ -106,6 +118,7 @@ body {
     border: 2px solid white;
     font-family: "Naruto",sans-serif;
     margin-top: 30px;
+    outline: none
 }
 
 .progress_bars {

@@ -17,38 +17,15 @@ export default class AudioLoader {
 
     play() {
         this.audio.currentTime = 0;
-        const playPromise = this.audio.play();
-        if (playPromise !== null) {
-            playPromise.catch(() => {
-                const playPromise2 = this.audio.play();
-                if (playPromise2 !== null) {
-                    playPromise2.catch(() => {
-                        this.audio.play();
-                        const playPromise3 = this.audio.play();
-                        if (playPromise3 !== null) {
-                            playPromise3.catch(() => {
-                                this.audio.play();
-                            });
-                        }
-                    });
-                }
-            });
-        }
-
-
-
+        this.audio.play().catch(() => {
+            this.audio.play();
+        });
     };
 
-    pause() {
-        this.audio.pause();
-    };
-
-    stop() {
-        this.audio.pause();
-        this.audio.currentTime = 0;
-    };
-
-    setVolume(volume) {
-        this.audio.volume = volume;
+    loop() {
+        this.play();
+        this.audio.onended = () => {
+            this.play();
+        };
     }
 }
