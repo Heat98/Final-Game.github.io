@@ -1,5 +1,5 @@
-import CONSTANTS from '../Constants/constants';
-import question from './Question';
+import CONSTANTS from '../../Constants/constants';
+import question from '../Questions/Question';
 
 export class Jutsu {
 
@@ -20,9 +20,7 @@ export class Jutsu {
 
     chooseJutsu() {
         CONSTANTS.jutsu_list.addEventListener('click', (event) => {
-
-            let target = event.target;
-            if ( target.tagName !== 'LI' ) return;
+            if ( event.target.tagName !== 'LI' ) return;
             this.hideJutsuMenu();
             this.question.showQuestion();
         });

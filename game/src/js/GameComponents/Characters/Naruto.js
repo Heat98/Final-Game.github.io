@@ -1,4 +1,4 @@
-import ImageLoader from '../Loaders/ImageLoader';
+import ImageLoader from '../../Loaders/ImageLoader';
 
 export class Naruto {
     constructor() {

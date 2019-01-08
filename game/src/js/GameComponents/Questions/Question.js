@@ -1,15 +1,15 @@
 import questions from './questions';
-import CONSTANTS from '../Constants/constants';
+import CONSTANTS from '../../Constants/constants';
 import questionsList from './questionsList';
-import jutsu from './Jutsu';
-import sasuke from './Sasuke';
-import naruto from './Naruto';
+import jutsu from '../Jutsu/Jutsu';
+import sasuke from '../Characters/Sasuke';
+import naruto from '../Characters/Naruto';
 
 export class Question{
     constructor() {
         this.iterator = questionsList[Symbol.iterator]();
         this.nextQuestion = this.iterator.next();
-        this.callback = () => setTimeout(()=>jutsu.showJutsuMenu(),2300);
+        this.callback = () => setTimeout( () => jutsu.showJutsuMenu(), 2300);
         CONSTANTS.answer.addEventListener('click', () => this.checkAnswer(this.callback));
     }
 
@@ -30,13 +30,11 @@ export class Question{
         CONSTANTS.narutoHealth.value -= 25;
         this.hideQuestions();
         this.nextQuestion = this.iterator.next();
-        console.log('yes');
-            callback();
+        callback();
     };
 
     wrongAnswer(callback) {
         CONSTANTS.sasukeHealth.value -= 25;
-        console.log('no');
         this.hideQuestions();
         naruto.rassengan(900, 300);
         callback();
