@@ -1,3 +1,3 @@
-# OPEN: https://heat98.github.io/Final-Game.github.io/
+# OPEN: https://dzmitrykavalenka-own.github.io/Final-Game.github.io/
 
 # Final-Game.github.io
